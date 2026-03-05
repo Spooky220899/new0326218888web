@@ -1,0 +1,16 @@
+.modal-personal-customer .customer-name-signature .col-sm-3{width:20%;}
+.modal-personal-customer .customer-name-signature .col-sm-9{width:80%;}
+.modal-customs-declaration.modal-body{padding:0;}
+.widget-charges-details .column-charges-type{position:relative;float:left;width:58.33333333%;min-height:1px;padding-left:12px;padding-right:12px;}
+.widget-charges-details .column-charges-type .charges-item>label{text-align:right;position:relative;float:left;width:66.66666667%;min-height:1px;padding-left:12px;padding-right:12px;}
+.widget-charges-details .column-charges-type .charges-item>div{position:relative;float:left;width:33.33333333%;min-height:1px;padding-left:12px;padding-right:12px;}
+.widget-charges-details .column-collect{position:relative;float:left;width:41.66666667%;min-height:1px;padding-left:12px;padding-right:12px;}
+@media print{#printPsngrDecAck .widget-header{border-color:transparent!important;padding-left:0;filter:none;}
+#printPsngrDecAck .widget-body{border-color:transparent;}
+#printPsngrDecAck h4{padding-bottom:5px;padding-top:5px;color:black;font-weight:bold;padding-left:0;}
+#printPsngrDecAck .widget-box,.panel,.modal-header{padding:0;border-bottom:none;}
+#printPsngrDecAck .item-information{padding-left:1px;padding-right:12px;padding-top:1px!important;padding-bottom:1px!important;}
+#printPsngrDecAck .item-information label,#printPsngrDecAck .item-information div{padding-left:5px;padding-right:12px;padding-top:1px!important;padding-bottom:1px!important;}
+#printPsngrDecAck .table{margin-bottom:5px;margin-left:5px;}
+#printPsngrDecAck .table th{font-weight:bold;color:black;padding-left:5px;}
+}

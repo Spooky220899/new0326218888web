@@ -1,0 +1,181 @@
+.modal-customs-declaration{padding:10px;}
+.modal-customs-declaration .page-header{margin:12px 0 6px;padding-bottom:0;padding-top:0;border-bottom:0;}
+.modal-customs-declaration .section-declaration-info .page-header{margin-top:0;padding-top:0;}
+.modal-customs-declaration .table-responsive th,.modal-customs-declaration .flat-data-label,.modal-customs-declaration .clsPrintBrwLabel{color:#858585;font-size:7pt;font-weight:normal;}
+.modal-customs-declaration .table-responsive-container+.table-responsive-container{margin-top:24px;}
+.modal-customs-declaration .table-responsive td{font-size:8pt;font-weight:700;}
+.modal-customs-declaration .table-view-information tr>th{background-color:#f9f9f9;}
+.modal-customs-declaration .section-charges-payment-details table tbody td{background-color:transparent;}
+.modal-customs-declaration .section-shipping-details .table-release-instructions thead tr,.modal-customs-declaration .section-shipping-details .table-transit-details thead tr,.modal-customs-declaration .section-shipping-details .table-other-remarks thead tr{background:none;background-color:transparent;}
+.modal-customs-declaration .section-shipping-details .table-release-instructions thead tr th,.modal-customs-declaration .section-shipping-details .table-transit-details thead tr th,.modal-customs-declaration .section-shipping-details .table-other-remarks thead tr th,.modal-customs-declaration .section-shipping-details .table-release-instructions thead tr td,.modal-customs-declaration .section-shipping-details .table-transit-details thead tr td,.modal-customs-declaration .section-shipping-details .table-other-remarks thead tr td{text-align:center;font-weight:bold;color:#000;}
+.modal-customs-declaration .section-shipping-details .table-release-instructions td,.modal-customs-declaration .section-shipping-details .table-transit-details td,.modal-customs-declaration .section-shipping-details .table-other-remarks td{line-height:18px;}
+.modal-customs-declaration .section-shipping-details>.row{margin:0;}
+.modal-customs-declaration .section-shipping-details>.row>.col-sm-3{padding-left:0;}
+.modal-customs-declaration .section-shipping-details>.row>.col-sm-5{padding-left:0;padding-right:0;}
+.modal-customs-declaration .section-shipping-details>.row>.col-sm-4{padding-right:0;}
+.modal-customs-declaration .section-shipping-details .table-transit-details .row{margin:0;}
+.modal-customs-declaration .section-shipping-details .table-transit-details .row>.col-xs-6{padding-right:6px;padding-left:6px;}
+.modal-customs-declaration .section-invoice-details .basic-details,.modal-customs-declaration .section-vehicle .basic-details{margin-right:0;margin-left:0;margin-bottom:6px;border:1px solid #ddd;}
+.modal-customs-declaration .footable thead tr th{text-align:center;}
+.modal-customs-declaration .table-person-parties td,.modal-customs-declaration .table-clearance-instructions td{text-align:left;}
+.modal-customs-declaration .clsPrintBrwData,.modal-customs-declaration #mainDiv,.modal-customs-declaration #mainDiv table{background-color:#fff;color:#000;font-size:8pt;font-weight:700;}
+.modal-customs-declaration .table-bordered>thead>tr>th,.modal-customs-declaration .table-bordered>tbody>tr>th,.modal-customs-declaration .table-bordered>tfoot>tr>th,.modal-customs-declaration .table-bordered>thead>tr>td,.modal-customs-declaration .table-bordered>tbody>tr>td,.modal-customs-declaration .table-bordered>tfoot>tr>td{border:1px solid #333!important;}
+.modal-view-clearance-message{background-color:#FFF;padding:0 5px 5px 5px;border:#4aa5ff 1px solid;font-size:12px;}
+.modal-view-clearance-message table{border-spacing:1px;border-collapse:separate;}
+.modal-view-clearance-message #DeclarationNo{border-bottom:#4aa5ff 1px solid;font-family:Verdana,Arial,Helvetica,sans-serif;margin-bottom:5px;font-size:14px;font-weight:bold;padding:5px;}
+.modal-view-clearance-message table tbody th,.modal-view-clearance-message .footable>thead>tr>th,.modal-view-clearance-message .footable>tbody>tr.odd>th{text-align:left;background-color:#eee;padding:0 0 0 2px!important;}
+.modal-view-clearance-message .footable>tbody>tr:nth-child(odd)>th{text-align:left;background-color:#eee;padding:0 0 0 2px!important;}
+.modal-view-clearance-message h1,.modal-view-clearance-message h2,.modal-view-clearance-message h3{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
+.modal-view-clearance-message h1,.modal-view-clearance-message h2{display:block;margin-bottom:2px;margin-top:10px;font-size:13px;font-weight:bold;}
+.modal-view-clearance-message h1{padding:0;background-color:#9cf;text-align:center;clear:both;}
+.modal-view-clearance-message h2{padding-left:5px;background-color:#d5eaff;}
+.modal-view-clearance-message h3{border-bottom:#9cf 1px solid;background-color:#eaf4ff;margin-top:5px;margin-bottom:10px;padding-top:0 0 0 5px;display:block;font-size:12px;}
+.modal-view-clearance-message td,.modal-view-clearance-message .footable>tbody>tr>th,.modal-view-clearance-message .footable>tbody>tr>td{background-color:#f7f7f7;line-height:1;}
+.modal-view-clearance-message #Footer{text-align:center;padding:7px 7px 2px 7px;color:#5d5d5d;border-top:#4aa5ff 1px solid;}
+.modal-view-clearance-message #HsCodeHolder table{background-color:#9cf;margin-bottom:10px;}
+.clearance-message-footer{margin-bottom:0;text-align:center;}
+.modal-personal-customer .customer-name-signature .row{margin-left:0;margin-right:0;}
+.modal-personal-customer .customer-name-signature .col-sm-3,.modal-personal-customer .customer-name-signature .col-sm-9{padding-right:0;padding-left:0;}
+.page-cancel-declaration-request .col-lg-6,.page-amend-temporary-export .col-lg-6{margin-bottom:5px;}
+.form-group .radio-view-acknowledgement{padding-top:0;}
+.panel-invoice-details{display:none;}
+#invItemDetail table td:first-child+td,.track-request-remarks,#invItemDetail .column-goods-description{word-break:break-all;word-wrap:break-word;}
+.party-info-container{margin-left:-12px;margin-right:-12px;}
+.party-info-container:before,.party-info-container:after{content:" ";display:table;}
+.party-info-container:after{clear:both;}
+.party-info{float:left;width:100%;position:relative;min-height:1px;padding-left:12px;padding-right:12px;margin-bottom:12px;}
+@media(min-width:768px){.party-info{float:left;width:50%;}
+}
+.party-info .header{margin-bottom:8px;margin-top:0;}
+.party-info .party-code{font-weight:700;}
+.party-info li{line-height:1.8;}
+.item-information-attachments .alert{font-size:13px;}
+.item-information-attachments>div>.row>div{padding-left:0;}
+.attachment-item{border:1px solid #bce8f1;}
+.attachment-item+.attachment-item{margin-top:10px;}
+.attachment-item .attachment-item-header{cursor:pointer;}
+.attachment-item .attachment-item-detail{display:none;}
+.attachment-item .attachment-item-header,.attachment-item .attachment-item-detail,.attachment-item .attachment-item-upload{padding:10px;}
+.attachment-item .list-group{padding:0;margin:-10px;margin-bottom:5px;}
+.attachment-item .list-group .list-group-item{background:#f7fafa;word-break:break-word;word-wrap:break-word;}
+.attachment-item .close{font-size:14px;}
+.item-information-container-hs-code ul,.item-information-container-hs-code ol{margin-top:10px;}
+.widget-consignment-details h4{margin-bottom:0;}
+.widget-consignment-details .charges-grid{background-color:#f2f2f2;}
+.widget-consignment-details .charges-grid .row-header{border-bottom:1px solid #e9e9e9;}
+.widget-consignment-details .charges-grid .column-header{padding:10px 0;}
+.widget-consignment-details .charges-grid .column-inbound,.widget-consignment-details .charges-grid .column-outbound,.widget-consignment-details .charges-grid .column-shipping-details{float:left;width:100%;position:relative;min-height:1px;padding-left:12px;padding-right:12px;}
+@media(min-width:768px){.widget-consignment-details .charges-grid .column-inbound,.widget-consignment-details .charges-grid .column-outbound,.widget-consignment-details .charges-grid .column-shipping-details{float:left;width:33.33333333%;}
+}
+.widget-consignment-details .charges-grid b.visible-xs{float:left;width:100px;margin-right:10px;}
+.widget-consignment-details .charges-grid .row+.row{margin-top:0;padding:8px 0;}
+.widget-consignment-details .charges-grid label{margin-bottom:0;}
+.page-payment-details .column-mode-of-payment,.page-payment-details .column-payment-reference{float:left;width:100%;position:relative;min-height:1px;padding-left:12px;padding-right:12px;}
+@media(min-width:768px){.page-payment-details .column-mode-of-payment,.page-payment-details .column-payment-reference{float:left;width:25%;}
+}
+@media(min-width:768px){.page-payment-details .column-mode-of-payment.column-header{margin-left:50%;}
+}
+.page-payment-details .column-charges-type,.page-payment-details .column-additional-charges,.page-payment-details .column-checkbox-iagree{position:relative;float:left;width:100%;min-height:1px;padding-left:12px;padding-right:12px;}
+.page-payment-details .column-charges-type .charges-item,.page-payment-details .column-additional-charges .charges-item,.page-payment-details .column-checkbox-iagree .charges-item{margin-left:-12px;margin-right:-12px;margin-bottom:10px;}
+.page-payment-details .column-charges-type .charges-item:before,.page-payment-details .column-additional-charges .charges-item:before,.page-payment-details .column-checkbox-iagree .charges-item:before,.page-payment-details .column-charges-type .charges-item:after,.page-payment-details .column-additional-charges .charges-item:after,.page-payment-details .column-checkbox-iagree .charges-item:after{content:" ";display:table;}
+.page-payment-details .column-charges-type .charges-item:after,.page-payment-details .column-additional-charges .charges-item:after,.page-payment-details .column-checkbox-iagree .charges-item:after{clear:both;}
+.page-payment-details .column-charges-type .charges-item:first-child *,.page-payment-details .column-additional-charges .charges-item:first-child *,.page-payment-details .column-checkbox-iagree .charges-item:first-child *{font-weight:700;}
+.page-payment-details .column-charges-type{position:relative;min-height:1px;padding-left:12px;padding-right:12px;}
+@media(min-width:768px){.page-payment-details .column-charges-type{float:left;width:33.33333333%;}
+}
+.page-payment-details .column-charges-type .charges-item>label{text-align:right;position:relative;min-height:1px;padding-left:12px;padding-right:12px;}
+@media(min-width:768px){.page-payment-details .column-charges-type .charges-item>label{float:left;width:58.33333333%;}
+}
+.page-payment-details .column-charges-type .charges-item>div{position:relative;min-height:1px;padding-left:12px;padding-right:12px;}
+@media(min-width:768px){.page-payment-details .column-charges-type .charges-item>div{float:left;width:41.66666667%;}
+}
+.page-payment-details .column-additional-charges{position:relative;min-height:1px;padding-left:12px;padding-right:12px;}
+@media(min-width:992px){.page-payment-details .column-additional-charges{float:left;width:50%;}
+}
+.page-payment-details .column-additional-charges .charges-item>label{position:relative;min-height:1px;padding-left:12px;padding-right:12px;}
+@media(min-width:768px){.page-payment-details .column-additional-charges .charges-item>label{float:left;width:41.66666667%;}
+}
+.page-payment-details .column-additional-charges .charges-item>div{position:relative;min-height:1px;padding-left:12px;padding-right:12px;}
+@media(min-width:768px){.page-payment-details .column-additional-charges .charges-item>div{float:left;width:58.33333333%;}
+}
+.page-payment-details .column-checkbox-iagree{position:relative;min-height:1px;padding-left:12px;padding-right:12px;}
+@media(min-width:768px){.page-payment-details .column-checkbox-iagree{float:left;width:50%;}
+}
+.page-payment-details .column-checkbox-iagree .charges-item>label{text-align:right;position:relative;min-height:1px;padding-left:12px;padding-right:12px;}
+@media(min-width:768px){.page-payment-details .column-checkbox-iagree .charges-item>label{float:left;width:41.66666667%;}
+}
+.page-payment-details .column-checkbox-iagree .charges-item>div{position:relative;min-height:1px;padding-left:12px;padding-right:12px;}
+@media(min-width:768px){.page-payment-details .column-checkbox-iagree .charges-item>div{float:left;width:58.33333333%;}
+}
+.page-payment-details .column-collect{float:left;width:100%;position:relative;min-height:1px;padding-left:12px;padding-right:12px;}
+@media(min-width:768px){.page-payment-details .column-collect{float:left;width:16.66666667%;}
+}
+.page-payment-details .column-charges-type,.page-payment-details .column-collect,.page-payment-details .column-additional-charges{padding-top:6px;}
+.page-payment-details .panel-content{padding:10px;}
+.page-payment-details .row+.row{margin-top:10px;border-top:1px solid #e9e9e9;padding-top:10px;}
+.page-payment-details .row,.widget-consignment-details .row,.widget-charges-details .row{margin-right:0;margin-left:0;}
+.widget-charges-details .column-charges-type{float:left;width:100%;position:relative;min-height:1px;padding-left:12px;padding-right:12px;}
+@media(min-width:768px){.widget-charges-details .column-charges-type{float:left;width:58.33333333%;}
+}
+.widget-charges-details .column-charges-type .charges-item{margin-left:-12px;margin-right:-12px;margin-bottom:10px;}
+.widget-charges-details .column-charges-type .charges-item:before,.widget-charges-details .column-charges-type .charges-item:after{content:" ";display:table;}
+.widget-charges-details .column-charges-type .charges-item:after{clear:both;}
+.widget-charges-details .column-charges-type .charges-item:first-child *{font-weight:700;}
+.widget-charges-details .column-charges-type .charges-item>label{text-align:right;position:relative;min-height:1px;padding-left:12px;padding-right:12px;}
+@media(min-width:768px){.widget-charges-details .column-charges-type .charges-item>label{float:left;width:75%;}
+}
+.widget-charges-details .column-charges-type .charges-item>div{position:relative;min-height:1px;padding-left:12px;padding-right:12px;padding-right:0;}
+@media(min-width:768px){.widget-charges-details .column-charges-type .charges-item>div{float:left;width:25%;}
+}
+.widget-charges-details .column-header .charges-item,.widget-charges-details .column-header .charges-item label{margin-bottom:0;}
+.widget-charges-details .column-header .charges-item:first-child *{font-weight:normal;}
+.widget-charges-details .column-collect{float:left;width:100%;position:relative;min-height:1px;padding-left:12px;padding-right:12px;}
+@media(min-width:768px){.widget-charges-details .column-collect{float:left;width:41.66666667%;}
+}
+.widget-charges-details .column-charges-type,.widget-charges-details .column-collect{padding-top:6px;}
+.widget-charges-details .row+.row{margin-top:10px;border-top:1px solid #e9e9e9;padding-top:10px;}
+.terms-and-conditions-page .terms-and-conditions-english{position:relative;min-height:1px;padding-left:12px;padding-right:12px;}
+@media(min-width:768px){.terms-and-conditions-page .terms-and-conditions-english{float:left;width:50%;}
+}
+.terms-and-conditions-page .terms-and-conditions-arabic{position:relative;min-height:1px;padding-left:12px;padding-right:12px;}
+@media(min-width:768px){.terms-and-conditions-page .terms-and-conditions-arabic{float:left;width:50%;}
+}
+.terms-and-conditions-page .terms-and-conditions-arabic p,.terms-and-conditions-page .terms-and-conditions-arabic h4,.terms-and-conditions-page .terms-and-conditions-arabic h5{direction:rtl;}
+.terms-and-conditions-page p{text-align:justify;margin-bottom:10px;}
+.terms-and-conditions-page h4,.terms-and-conditions-page h5{font-weight:700;}
+#invItemDetail table td:first-child+td{width:30%;}
+.track-request-remarks{width:15%;}
+.new-customer-btn-container{text-align:right;padding:6px;}
+.alert+.new-customer-btn-container{padding-top:0;}
+@media(min-width:992px){.page-payment-details .panel-content .controls{width:100%;margin-left:0;}
+.page-payment-details .control-label{margin-right:5px;width:210px;}
+}
+@media(max-width:1199px){.form-group-upload{margin-top:8px;}
+}
+@media(min-width:768px){.modal-personal-customer .customer-name-signature .col-sm-3{width:20%;}
+.modal-personal-customer .customer-name-signature .col-sm-9{width:80%;}
+}
+@media(min-width:768px) and(max-width:991px){.page-payment-details .collect-column{width:160px;text-align:right;}
+}
+@media(max-width:991px){.item-information-attachments>div>.row>div{padding-left:0;padding-right:0;margin-bottom:10px;}
+}
+@media(max-width:767px){.modal-customs-declaration .section-shipping-details>.row>div{padding-right:0;padding-left:0;}
+.collect-column{padding-left:0;}
+.widget-consignment-details .charges-grid .row{padding:10px 0;}
+.widget-charges-details .column-charges-type .charges-item>label{text-align:left;}
+.page-payment-details .row+.row{margin-top:20px;padding-top:20px;}
+.page-payment-details .row:first-child+.row{border-top:0;margin-top:0;padding-top:0;}
+.page-payment-details .column-charges-type .charges-item>label,.page-payment-details .column-additional-charges .charges-item>label{text-align:left;}
+.item-information-attachments>label,.item-information-response>label{padding-bottom:0;}
+.item-information-attachments>label,.item-information-response>label,.item-information-attachments>div,.item-information-response>div{display:block;width:100%;float:none;}
+}
+.footable-row-detail-inner{width:100%;}
+.footable-row-detail-name{width:40%;}
+@media(min-width:768px) and(max-width:991px){.additional-chrg-pay-details .column-mode-of-payment,.additional-chrg-pay-details .column-payment-reference{float:left!important;width:50%!important;}
+.page-payment-details .column-additional-charges .charges-item>label{text-align:left;width:35.66666667%;}
+}
+@media(min-width:992px){.page-payment-details .column-additional-charges .charges-item>label{text-align:right;}
+}
+@media(min-width:768px){.margin-top-5-tablet{margin-top:5px;}
+}
+.div-min-400-height{min-height:400px;}

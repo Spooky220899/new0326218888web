@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="login-pf">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="noindex, nofollow">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	
+            <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Sign in to DUBAITRADE</title>
+    <link rel="icon" href="/auth/resources/jsszd/login/dubaitrade/img/favicon.ico" />
+
+            <link href="/auth/resources/jsszd/login/dubaitrade/css/reset.css" rel="stylesheet" />
+            <link href="/auth/resources/jsszd/login/dubaitrade/css/login.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://dtstatic.cachefly.net/dtlib/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+</head>
+
+<body class="">
+<div class="container">
+
+<div class="content-block">
+     <div class="login-block">
+    <div class="well">
+        <header class="login-pf-header">
+                <h1 id="kc-page-title">        
+	
+
+</h1>
+      </header>
+      <div id="kc-content">
+		<div id="user-cancelled-request-div">	
+			<div class="card">
+				 <div class="card-header">
+					<a href="https://www.dubaitrade.ae"> <img src="https://dtcms.cachefly.net/dtmenu-new/images/bu-logos/logo_dt.jpg?v=1" alt="Dubai Trade"></a>
+				  </div>
+				<div class="card-body">
+					<div class="user-cancelled-request">
+									<p class="user-cancelled-request-message">User cancelled the login   </p>
+									<div class="goto-login-page-button">
+										<input tabindex="12" class="btn sign-in" name="login" id="kc-login10" type="button" value="Login" onclick="gotoLoginPage()"/>
+									</div>
+					</div>
+				</div>
+				</div>
+			</div>
+
+        <div id="kc-content-wrapper">
+
+
+    <div id="kc-form">
+      <div id="kc-form-wrapper">
+	   <section class="main-section">
+                <div class="card">
+				<div class="card-top-message">UAE PASS- Dubai Trade Profile Linking</div>
+				<div class="card-top-message-2">(Login with your Dubai Trade Credentials)</div>
+				   <div class="card-header">
+						<a href="https://www.dubaitrade.ae"> <img src="https://dtcms.cachefly.net/dtmenu-new/images/bu-logos/logo_dt.jpg?v=1" alt="Dubai Trade"></a>
+				   </div>
+					
+						<form id="kc-form-login" onsubmit="login.disabled = true; return true;" action="https://auth.dubaitrade.ae/auth/realms/DUBAITRADE/login-actions/authenticate?session_code=TF-cT9xthWJ-fm9msS78hgA9aE7bEKDQGwS2Sypn8yk&amp;execution=040f3d3d-3b15-4c4f-a8bf-db88e4187946&amp;client_id=dc-auth-client&amp;tab_id=siMivd2rD_w" method="post">
+						
+							<div class="card-body" id="login-card-body">
+									<div class="card-item">
+												<input tabindex="1" id="username" class="form-control" name="username" value=""  type="text" autofocus autocomplete="off" placeholder="Username"
+													   aria-invalid=""
+												/>
+									</div>
+									<div class="card-item">
+											 <input tabindex="2" id="password"  name="password" class="form-control" type="password" autocomplete="off" placeholder="Password"
+													aria-invalid=""/>
+									</div>
+									<div class="card-item forgot-password">
+										<a href="https://www.dubaitrade.ae/reg-dtp-pass">	
+											<span>Forgot password ?</span>
+										</a>
+									</div>
+									
+									<!--- section not used---->
+										<div class="form-group login-pf-settings">
+											<div id="kc-form-options">
+												</div>
+												<div class="">
+												</div>
+
+										  </div>
+									  <!---->
+									  
+									<div class="card-action">
+									<div>
+										<input type="hidden" id="id-hidden-input" name="credentialId" />
+										<input tabindex="4" class="btn sign-in" name="login" id="kc-login" type="submit" value="Sign In"/>
+									</div>
+									
+									<div>
+									
+										        <div class="or-seperator"><h3>Or</h3></div>
+									
+														<div class="uae-pass">
+														<a id="social-UAEPASSMob"  type="button" href="/auth/realms/DUBAITRADE/broker/UAEPASSMob/login?client_id=dc-auth-client&amp;tab_id=siMivd2rD_w&amp;session_code=TF-cT9xthWJ-fm9msS78hgA9aE7bEKDQGwS2Sypn8yk">
+																<img class="uae-pass-logo" id="uae-pass-logo-id" src="/auth/resources/jsszd/login/dubaitrade/img/UP_Logo_Only@2x.png">	<span>		Sign in  with UAE PASS MOBILE </span>
+															</a>
+														</div>
+														<div class="uae-pass">
+														<a id="social-UAEWEBMob"  type="button" href="/auth/realms/DUBAITRADE/broker/UAEWEBMob/login?client_id=dc-auth-client&amp;tab_id=siMivd2rD_w&amp;session_code=TF-cT9xthWJ-fm9msS78hgA9aE7bEKDQGwS2Sypn8yk">
+																<img class="uae-pass-logo" id="uae-pass-logo-id" src="/auth/resources/jsszd/login/dubaitrade/img/UP_Logo_Only@2x.png">	<span>		Sign in  with UAE PASS Web Mobile </span>
+															</a>
+														</div>
+														<div class="uae-pass">
+														<a id="social-UAEPASS"  type="button" href="/auth/realms/DUBAITRADE/broker/UAEPASS/login?client_id=dc-auth-client&amp;tab_id=siMivd2rD_w&amp;session_code=TF-cT9xthWJ-fm9msS78hgA9aE7bEKDQGwS2Sypn8yk">
+																<img class="uae-pass-logo" id="uae-pass-logo-id" src="/auth/resources/jsszd/login/dubaitrade/img/UP_Logo_Only@2x.png">	<span>		Sign in  with UAE PASS </span>
+															</a>
+														</div>
+										
+									</div>
+									</div>
+							</div>
+							<div class="card-body-uae-pass">
+							  <div class="mapping-message-div">
+									<p class="mapping-message"> Do you have an online account with Dubai Trade? </p>
+									<div class="uae-pass-mapping-action-div">
+										<button type="button" tabindex="5" class="btn sign-in" name="login" id="kc-login2" onclick="showLoginMapBox()">Yes&nbsp;<sup>*</sup></button>
+										<button  type="button" tabindex="6" class="btn sign-in" name="login" id="kc-login3" onclick="showErrorMessage()">No&nbsp;<sup>**</sup></button>
+
+									</div>
+									<div class="uae-pass-mand-mess-div">
+										<div><pre>*</pre><span class="uae-pass-info-msg">Your UAE PASS account wll be linked to your existing Dubai Trade profile</span> </div>
+										<div><pre>**</pre> <span class="uae-pass-info-msg">Your Dubai Trade profile will be established based n the UAE PASS  account </span></div>
+										 <div class="uae-pass-mand-mess-note-div">Note: <span class="uae-pass-info-msg"> This is a one time process, your future login's through UAE PASS will be seamless.</span> </div>
+									</div>
+								</div>
+								<div class="mapping-error-message-div">
+									
+									<p class="mapping-message">Sorry this access is only permitted to registered Dubai Trade customers   </p>
+									<div class="goto-home-page-button">
+										<input tabindex="7" class="btn sign-in" name="login" id="kc-login4" type="button" value="Home" onclick="gotToHomePage()"/>
+									</div>
+								</div>
+							</div>
+							
+							</form>
+							
+				</div>
+		</section>		
+		
+        </div>
+		</div>
+    
+	
+
+	
+
+
+		  
+        </div>
+      </div>
+
+    </div>
+		<div class="logo-box" id="logo-box">
+				<a target="_blank" href="http://www.dpworld.ae/"><img src="https://dtcms.cachefly.net/dtmenu-new/images/bu-logos/dpw-new.png" class="img-rounded" alt="DP World"></a>	  
+				<a target="_blank" href="http://www.jafza.ae/"><img src="https://dtcms.cachefly.net/dtmenu-new/images/bu-logos/ezw.png" class="img-rounded" alt="EZW"></a>
+				<a target="_blank" href="http://www.dubaicustoms.ae/"><img src="https://dtcms.cachefly.net/dtmenu-new/images/bu-logos/customs.png" class="img-rounded" alt="Dubai Customs"></a>
+		</div>
+
+		</div>
+		</div>
+<script>
+  var cmsurl = "https://www.dubaitrade.ae";
+  var client_id='dt-auth-client'
+  var loginurl='https://eservices.dubaitrade.ae'
+  var mobwebclientid='dt-mobapp-auth-client'
+  
+function getQueryParams(url) {
+    var queryParams = {};
+    // Creating a URL object
+    var urlObj = new URL(url);
+    // Iterating over search params
+    urlObj.searchParams.forEach((value, key) => {
+        queryParams[key] = value;
+    });
+    return queryParams;
+}
+
+function showLoginMapBox() {
+	console.log('showing login mapping box');
+	document.getElementsByClassName('alert alert-danger')[0].style.display='none' 
+	document.getElementsByClassName('card-body-uae-pass')[0].style.display = 'none';
+	document.getElementsByClassName('msg-area')[0].style.display = 'block';
+	document.getElementById('login-card-body').style.display='block';
+	document.getElementById('kc-login').value='Link above account with UAE Pass';
+	document.getElementsByClassName('card-top-message-2')[0].style.visibility='visible' 
+}
+function showErrorMessage() {
+	document.getElementsByClassName('mapping-message-div')[0].style.display = 'none';
+	document.getElementsByClassName('mapping-error-message-div')[0].style.display = 'block';
+}
+
+function gotToHomePage(){
+window.location.href=cmsurl;
+}
+
+function gotoLoginPage(){
+window.location.href=loginurl;
+}
+
+
+if (window.location.href.includes("client_id="+mobwebclientid)) {
+ if (window.location.href.includes("first-broker-login?client_id="+mobwebclientid)) {
+    console.log('mapping operation mobile');
+        document.getElementsByClassName('msg-area')[0].style.display = 'none';
+        document.getElementById('login-card-body').style.display='none';
+        document.getElementsByClassName('card-body-uae-pass')[0].style.display = 'block';
+        document.getElementsByClassName('mapping-error-message-div')[0].style.display = 'none';
+
+ } else {
+ console.log('Redirecting to UAE  Mobile Web  pass');
+
+  if (document.getElementsByClassName('container')?.length > 0) {
+		document.getElementsByClassName('container')[0].style.display = 'none';
+  }
+  document.getElementById('social-UAEWEBMob')?.click();
+ }
+}
+ 
+if (window.document.documentMode) {
+    document.getElementById('uae-pass-logo-id').style.width = '50px';
+}
+
+if (window.location.href.includes("UPDATE_PASSWORD")) {
+    document.getElementById('logo-box').style.display = 'none';
+    var login_block = document.getElementsByClassName('login-block');
+    login_block[0].style.display = 'none';
+    var body = document.body;
+    body.appendChild(login_block[0]);
+    login_block[0].style.display = 'block';
+    document.getElementsByClassName('container')[0].style.display = 'none';
+}
+
+    console.log('before mapping');
+if (window.location.href.includes("first-broker-login?client_id="+client_id)) {
+    console.log('mapping operation');
+	document.getElementsByClassName('msg-area')[0].style.display = 'none';
+	document.getElementById('login-card-body').style.display='none';
+	document.getElementsByClassName('card-body-uae-pass')[0].style.display = 'block';
+	document.getElementsByClassName('mapping-error-message-div')[0].style.display = 'none';
+    document.getElementsByClassName('card-top-message')[0].style.visibility='visible' 
+
+
+}
+var currentUrl = window.location.href;
+var params = getQueryParams(currentUrl);
+
+// UAE pass cancel login scenario
+if (window.location.href.includes("DUBAITRADE/broker/UAEPASS/endpoint?error_description=") && params.sp && params.error) {
+    console.log('User cancelled the login');
+	document.getElementById('kc-page-title').style.display='none';
+	document.getElementById('kc-content-wrapper').style.display='none';
+	document.getElementById('user-cancelled-request-div').style.display='block';
+}
+
+/*
+
+
+if (params.redirect_uri && params.redirect_uri.includes('uaepass')) {
+  console.log('link for uae pass ');
+  document.getElementById('logo-box').style.display = 'none';
+    var login_block = document.getElementsByClassName('login-block');
+    login_block[0].style.display = 'none';
+    document.getElementsByClassName('container')[0].style.display = 'none';
+
+	
+    var link = document.querySelector('.uae-pass a');
+
+    if (link) {
+	    console.log(' Clicking on the IDC link');
+        link.click();
+    } else {
+        console.error('Link not found');
+    }
+	
+}
+
+console.log('in main pass');
+*/
+</script>
+
+</body>
+</html>
